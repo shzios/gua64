@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC05E6C11DD009CC00916FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6C01DD009CC00916FEB /* AppDelegate.swift */; };
+		CC05E6C81DD009CC00916FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6C71DD009CC00916FEB /* Assets.xcassets */; };
+		CC05E6CB1DD009CC00916FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6C91DD009CC00916FEB /* LaunchScreen.storyboard */; };
+		CC05E6D61DD009CD00916FEB /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6D51DD009CD00916FEB /* ____Tests.swift */; };
+		CC05E6E11DD009CD00916FEB /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6E01DD009CD00916FEB /* ____UITests.swift */; };
+		CC05E6EF1DD009ED00916FEB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6EE1DD009ED00916FEB /* MainViewController.swift */; };
+		CC05E6F31DD0134100916FEB /* topImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6F21DD0134100916FEB /* topImage.jpg */; };
+		CC05E6F51DD0218B00916FEB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6F41DD0218B00916FEB /* button.png */; };
+		CC05E6F71DD0267B00916FEB /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6F61DD0267B00916FEB /* OpenViewController.swift */; };
+		CC05E6F91DD0284C00916FEB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6F81DD0284C00916FEB /* DataModel.swift */; };
+		CC05E6FB1DD02CCC00916FEB /* navBar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */; };
+		CCCE65151DD1F06900C4DBEE /* SixtyFourProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCCE65141DD1F06900C4DBEE /* SixtyFourProperty.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC05E6D21DD009CD00916FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC05E6B51DD009CC00916FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC05E6BC1DD009CC00916FEB;
+			remoteInfo = "硬币卜卦";
+		};
+		CC05E6DD1DD009CD00916FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC05E6B51DD009CC00916FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC05E6BC1DD009CC00916FEB;
+			remoteInfo = "硬币卜卦";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC05E6BD1DD009CC00916FEB /* 硬币卜卦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "硬币卜卦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05E6C01DD009CC00916FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC05E6C71DD009CC00916FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC05E6CA1DD009CC00916FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC05E6CC1DD009CC00916FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05E6D11DD009CD00916FEB /* 硬币卜卦Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "硬币卜卦Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05E6D51DD009CD00916FEB /* ____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____Tests.swift"; sourceTree = "<group>"; };
+		CC05E6D71DD009CD00916FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05E6DC1DD009CD00916FEB /* 硬币卜卦UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "硬币卜卦UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC05E6E01DD009CD00916FEB /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
+		CC05E6E21DD009CD00916FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05E6EE1DD009ED00916FEB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC05E6F21DD0134100916FEB /* topImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topImage.jpg; sourceTree = "<group>"; };
+		CC05E6F41DD0218B00916FEB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		CC05E6F61DD0267B00916FEB /* OpenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
+		CC05E6F81DD0284C00916FEB /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_back@2x.png"; sourceTree = "<group>"; };
+		CCCE65141DD1F06900C4DBEE /* SixtyFourProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SixtyFourProperty.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC05E6BA1DD009CC00916FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6CE1DD009CD00916FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6D91DD009CD00916FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC05E6B41DD009CC00916FEB = {
+			isa = PBXGroup;
+			children = (
+				CC05E6BF1DD009CC00916FEB /* 硬币卜卦 */,
+				CC05E6D41DD009CD00916FEB /* 硬币卜卦Tests */,
+				CC05E6DF1DD009CD00916FEB /* 硬币卜卦UITests */,
+				CC05E6BE1DD009CC00916FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC05E6BE1DD009CC00916FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E6BD1DD009CC00916FEB /* 硬币卜卦.app */,
+				CC05E6D11DD009CD00916FEB /* 硬币卜卦Tests.xctest */,
+				CC05E6DC1DD009CD00916FEB /* 硬币卜卦UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC05E6BF1DD009CC00916FEB /* 硬币卜卦 */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E6C01DD009CC00916FEB /* AppDelegate.swift */,
+				CC05E6EE1DD009ED00916FEB /* MainViewController.swift */,
+				CC05E6F61DD0267B00916FEB /* OpenViewController.swift */,
+				CC05E6F81DD0284C00916FEB /* DataModel.swift */,
+				CCCE65141DD1F06900C4DBEE /* SixtyFourProperty.plist */,
+				CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */,
+				CC05E6F21DD0134100916FEB /* topImage.jpg */,
+				CC05E6F41DD0218B00916FEB /* button.png */,
+				CC05E6C71DD009CC00916FEB /* Assets.xcassets */,
+				CC05E6C91DD009CC00916FEB /* LaunchScreen.storyboard */,
+				CC05E6CC1DD009CC00916FEB /* Info.plist */,
+			);
+			path = "硬币卜卦";
+			sourceTree = "<group>";
+		};
+		CC05E6D41DD009CD00916FEB /* 硬币卜卦Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E6D51DD009CD00916FEB /* ____Tests.swift */,
+				CC05E6D71DD009CD00916FEB /* Info.plist */,
+			);
+			path = "硬币卜卦Tests";
+			sourceTree = "<group>";
+		};
+		CC05E6DF1DD009CD00916FEB /* 硬币卜卦UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC05E6E01DD009CD00916FEB /* ____UITests.swift */,
+				CC05E6E21DD009CD00916FEB /* Info.plist */,
+			);
+			path = "硬币卜卦UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC05E6BC1DD009CC00916FEB /* 硬币卜卦 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05E6E51DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦" */;
+			buildPhases = (
+				CC05E6B91DD009CC00916FEB /* Sources */,
+				CC05E6BA1DD009CC00916FEB /* Frameworks */,
+				CC05E6BB1DD009CC00916FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "硬币卜卦";
+			productName = "硬币卜卦";
+			productReference = CC05E6BD1DD009CC00916FEB /* 硬币卜卦.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC05E6D01DD009CD00916FEB /* 硬币卜卦Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05E6E81DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦Tests" */;
+			buildPhases = (
+				CC05E6CD1DD009CD00916FEB /* Sources */,
+				CC05E6CE1DD009CD00916FEB /* Frameworks */,
+				CC05E6CF1DD009CD00916FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC05E6D31DD009CD00916FEB /* PBXTargetDependency */,
+			);
+			name = "硬币卜卦Tests";
+			productName = "硬币卜卦Tests";
+			productReference = CC05E6D11DD009CD00916FEB /* 硬币卜卦Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC05E6DB1DD009CD00916FEB /* 硬币卜卦UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC05E6EB1DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦UITests" */;
+			buildPhases = (
+				CC05E6D81DD009CD00916FEB /* Sources */,
+				CC05E6D91DD009CD00916FEB /* Frameworks */,
+				CC05E6DA1DD009CD00916FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC05E6DE1DD009CD00916FEB /* PBXTargetDependency */,
+			);
+			name = "硬币卜卦UITests";
+			productName = "硬币卜卦UITests";
+			productReference = CC05E6DC1DD009CD00916FEB /* 硬币卜卦UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC05E6B51DD009CC00916FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = shanghz;
+				TargetAttributes = {
+					CC05E6BC1DD009CC00916FEB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X25C2RAGA6;
+						ProvisioningStyle = Automatic;
+					};
+					CC05E6D01DD009CD00916FEB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X25C2RAGA6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC05E6BC1DD009CC00916FEB;
+					};
+					CC05E6DB1DD009CD00916FEB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X25C2RAGA6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC05E6BC1DD009CC00916FEB;
+					};
+				};
+			};
+			buildConfigurationList = CC05E6B81DD009CC00916FEB /* Build configuration list for PBXProject "硬币卜卦" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC05E6B41DD009CC00916FEB;
+			productRefGroup = CC05E6BE1DD009CC00916FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC05E6BC1DD009CC00916FEB /* 硬币卜卦 */,
+				CC05E6D01DD009CD00916FEB /* 硬币卜卦Tests */,
+				CC05E6DB1DD009CD00916FEB /* 硬币卜卦UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC05E6BB1DD009CC00916FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05E6F31DD0134100916FEB /* topImage.jpg in Resources */,
+				CCCE65151DD1F06900C4DBEE /* SixtyFourProperty.plist in Resources */,
+				CC05E6F51DD0218B00916FEB /* button.png in Resources */,
+				CC05E6FB1DD02CCC00916FEB /* navBar_back@2x.png in Resources */,
+				CC05E6CB1DD009CC00916FEB /* LaunchScreen.storyboard in Resources */,
+				CC05E6C81DD009CC00916FEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6CF1DD009CD00916FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6DA1DD009CD00916FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC05E6B91DD009CC00916FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05E6F71DD0267B00916FEB /* OpenViewController.swift in Sources */,
+				CC05E6F91DD0284C00916FEB /* DataModel.swift in Sources */,
+				CC05E6C11DD009CC00916FEB /* AppDelegate.swift in Sources */,
+				CC05E6EF1DD009ED00916FEB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6CD1DD009CD00916FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05E6D61DD009CD00916FEB /* ____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC05E6D81DD009CD00916FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC05E6E11DD009CD00916FEB /* ____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC05E6D31DD009CD00916FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC05E6BC1DD009CC00916FEB /* 硬币卜卦 */;
+			targetProxy = CC05E6D21DD009CD00916FEB /* PBXContainerItemProxy */;
+		};
+		CC05E6DE1DD009CD00916FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC05E6BC1DD009CC00916FEB /* 硬币卜卦 */;
+			targetProxy = CC05E6DD1DD009CD00916FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC05E6C91DD009CC00916FEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC05E6CA1DD009CC00916FEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC05E6E31DD009CD00916FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC05E6E41DD009CD00916FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC05E6E61DD009CD00916FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC05E6E71DD009CD00916FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC05E6E91DD009CD00916FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/硬币卜卦.app/硬币卜卦";
+			};
+			name = Debug;
+		};
+		CC05E6EA1DD009CD00916FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/硬币卜卦.app/硬币卜卦";
+			};
+			name = Release;
+		};
+		CC05E6EC1DD009CD00916FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "硬币卜卦";
+			};
+			name = Debug;
+		};
+		CC05E6ED1DD009CD00916FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X25C2RAGA6;
+				INFOPLIST_FILE = "硬币卜卦UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shang-hongzhi-163.YBBG.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "硬币卜卦";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC05E6B81DD009CC00916FEB /* Build configuration list for PBXProject "硬币卜卦" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05E6E31DD009CD00916FEB /* Debug */,
+				CC05E6E41DD009CD00916FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05E6E51DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05E6E61DD009CD00916FEB /* Debug */,
+				CC05E6E71DD009CD00916FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05E6E81DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05E6E91DD009CD00916FEB /* Debug */,
+				CC05E6EA1DD009CD00916FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC05E6EB1DD009CD00916FEB /* Build configuration list for PBXNativeTarget "硬币卜卦UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC05E6EC1DD009CD00916FEB /* Debug */,
+				CC05E6ED1DD009CD00916FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC05E6B51DD009CC00916FEB /* Project object */;
+}
