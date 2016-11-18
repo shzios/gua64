@@ -15,6 +15,8 @@ class MainViewController: UIViewController {
     
     let screenWidth = UIScreen.main.bounds.width
 
+    var textField = UITextField()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "硬币卜卦法"
@@ -25,7 +27,7 @@ class MainViewController: UIViewController {
         topImageView.image = UIImage.init(named: "topImage.jpg")
         
         let textfieldH:CGFloat = addHight(upView: topImageView) + CGFloat(10)
-        let textField = UITextField(frame: CGRect(x: 50, y: textfieldH, width: screenWidth - 100, height: 30))
+        textField = UITextField(frame: CGRect(x: 50, y: textfieldH, width: screenWidth - 100, height: 30))
         view.addSubview(textField)
         textField.placeholder = "请输入六次摇卦的结果..."
         textField.borderStyle = .roundedRect
@@ -50,7 +52,9 @@ class MainViewController: UIViewController {
     }
     
     func pushJieGuai() -> () {
-        navigationController?.pushViewController(OpenViewController(), animated: true)
+        let open = OpenViewController()
+        open.textString = textField.text!
+        navigationController?.pushViewController(open, animated: true)
     }
     
     func addHight(upView:UIView) -> CGFloat {

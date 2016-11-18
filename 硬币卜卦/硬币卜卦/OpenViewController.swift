@@ -9,14 +9,38 @@
 import UIKit
 
 class OpenViewController: UIViewController {
+    
+    var textString = String()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = "乾为天"
         view.backgroundColor = UIColor.red
         navigationItem.leftBarButtonItem  = UIBarButtonItem.init(image:UIImage.init(named: "navBar_back@2x.png"), style: UIBarButtonItemStyle.plain, target: self, action:#selector(OpenViewController.returnMulu))
+        
+        let textView = UITextView(frame: CGRect(x: 20, y: 120, width: UIScreen.main.bounds.width - 40, height: UIScreen.main.bounds.height - 150))
+        view.addSubview(textView);
+        textView.backgroundColor = UIColor.clear
+        textView.font = UIFont.systemFont(ofSize: 16)
+
+
+        let sixTitle = Bundle.main.path(forResource: "SixtyFourProperty", ofType: "plist")
+        let array = NSArray.init(contentsOfFile: sixTitle!)
+        var dict = NSDictionary()
+        for s in array! {
+            dict = s as! NSDictionary
+            if let str = dict.object(forKey: textString) {
+                textView.text = str as! String
+            }
+        }
+        
+        
+        
+        
+        
         
     }
     func returnMulu(){
