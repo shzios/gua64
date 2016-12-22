@@ -17,10 +17,7 @@
 		CC05E6F51DD0218B00916FEB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6F41DD0218B00916FEB /* button.png */; };
 		CC05E6F71DD0267B00916FEB /* OpenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05E6F61DD0267B00916FEB /* OpenViewController.swift */; };
 		CC05E6FB1DD02CCC00916FEB /* navBar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */; };
-		CC4B4C911DE5911200A741F5 /* 1-15111G60950105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC4B4C901DE5911200A741F5 /* 1-15111G60950105.jpg */; };
 		CCDB51A81DD94B79004532C6 /* SixtyFourProperty.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCDB51A71DD94B79004532C6 /* SixtyFourProperty.plist */; };
-		CCF6A04D1E03DEAF005A003D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF6A04C1E03DEAF005A003D /* ViewController.swift */; };
-		CCF6A04F1E03DEC6005A003D /* 123.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCF6A04E1E03DEC6005A003D /* 123.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +54,7 @@
 		CC05E6F41DD0218B00916FEB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		CC05E6F61DD0267B00916FEB /* OpenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenViewController.swift; sourceTree = "<group>"; };
 		CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_back@2x.png"; sourceTree = "<group>"; };
-		CC4B4C901DE5911200A741F5 /* 1-15111G60950105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-15111G60950105.jpg"; sourceTree = "<group>"; };
 		CCDB51A71DD94B79004532C6 /* SixtyFourProperty.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SixtyFourProperty.plist; sourceTree = "<group>"; };
-		CCF6A04C1E03DEAF005A003D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCF6A04E1E03DEC6005A003D /* 123.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,9 +110,6 @@
 				CC05E6F61DD0267B00916FEB /* OpenViewController.swift */,
 				CCDB51A71DD94B79004532C6 /* SixtyFourProperty.plist */,
 				CC05E6FA1DD02CCC00916FEB /* navBar_back@2x.png */,
-				CC4B4C901DE5911200A741F5 /* 1-15111G60950105.jpg */,
-				CCF6A04C1E03DEAF005A003D /* ViewController.swift */,
-				CCF6A04E1E03DEC6005A003D /* 123.jpeg */,
 				CC05E6F21DD0134100916FEB /* topImage.jpg */,
 				CC05E6F41DD0218B00916FEB /* button.png */,
 				CC05E6C71DD009CC00916FEB /* Assets.xcassets */,
@@ -257,8 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC05E6F31DD0134100916FEB /* topImage.jpg in Resources */,
-				CC4B4C911DE5911200A741F5 /* 1-15111G60950105.jpg in Resources */,
-				CCF6A04F1E03DEC6005A003D /* 123.jpeg in Resources */,
 				CCDB51A81DD94B79004532C6 /* SixtyFourProperty.plist in Resources */,
 				CC05E6F51DD0218B00916FEB /* button.png in Resources */,
 				CC05E6FB1DD02CCC00916FEB /* navBar_back@2x.png in Resources */,
@@ -290,7 +279,6 @@
 			files = (
 				CC05E6F71DD0267B00916FEB /* OpenViewController.swift in Sources */,
 				CC05E6C11DD009CC00916FEB /* AppDelegate.swift in Sources */,
-				CCF6A04D1E03DEAF005A003D /* ViewController.swift in Sources */,
 				CC05E6EF1DD009ED00916FEB /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
